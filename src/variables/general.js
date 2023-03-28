@@ -31,11 +31,11 @@ import { SiDropbox } from "react-icons/si";
 
 export const dashboardTableData = [
   {
-    logo: AdobexdLogo,
-    name: "Purity UI Version",
-    members: [avatar1, avatar2, avatar3, avatar4, avatar5],
-    budget: "$14,000",
-    progression: 60,
+    logo: AtlassianLogo,
+    name: "Stephanus",
+    members: [avatar2],
+    budget: "€0,-",
+    progression: 1,
   },
   {
     logo: AtlassianLogo,

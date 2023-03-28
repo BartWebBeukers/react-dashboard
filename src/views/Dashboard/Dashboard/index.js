@@ -33,7 +33,7 @@ export default function Dashboard() {
 
   return (
     <Flex flexDirection='column' pt={{ base: "120px", md: "75px" }}>
-      <SimpleGrid columns={{ sm: 1, md: 2, xl: 4 }} spacing='24px'>
+      {/* <SimpleGrid columns={{ sm: 1, md: 2, xl: 4 }} spacing='24px'>
         <MiniStatistics
           title={"Today's Moneys"}
           amount={"$53,000"}
@@ -58,7 +58,10 @@ export default function Dashboard() {
           percentage={8}
           icon={<CartIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
-      </SimpleGrid>
+      </SimpleGrid> */}
+
+      <h1 className="dashboard-title">Hallo Stephanovich 👋🏼,</h1>
+
       <Grid
         templateColumns={{ md: "1fr", lg: "1.8fr 1.2fr" }}
         templateRows={{ md: "1fr auto", lg: "1fr" }}
@@ -108,7 +111,7 @@ export default function Dashboard() {
         gap='24px'>
         <Projects
           title={"Projects"}
-          amount={30}
+          amount={1}
           captions={["Companies", "Members", "Budget", "Completion"]}
           data={dashboardTableData}
         />
